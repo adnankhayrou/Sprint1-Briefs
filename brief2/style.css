@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    
+    margin-left: 50px;
+    margin-top: 30px;
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+ul{
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+header {
+    background-color: black;
+    height: 100px;
+    
+    
+}
+nav ol li {
+    display: inline-block;
+    
+}
+
+.img {
+    height: 100px;
+    width: 160px;
+}
+
+section h1, p{
+    margin-left: 40px;
+}
