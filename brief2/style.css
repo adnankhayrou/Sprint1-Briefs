@@ -2,6 +2,10 @@ body{
     margin: 0;
     padding: 0;
 }
+img{
+    width: 200px;
+    height: 250px;
+}
 ul li {
     
     margin-left: 50px;
@@ -12,27 +16,50 @@ ul li a{
     text-decoration: none;
     
 }
-ul{
+ul {
     margin: 0;
     display: flex;
     list-style: none;
 }
+a:hover{
+    color: green;
+}
+.price-co{
+    
+}
 header {
     background-color: black;
-    height: 100px;
+    height: 80px;
     
     
 }
 nav ol li {
+
     display: inline-block;
     
 }
 
 .img {
-    height: 100px;
-    width: 160px;
+    height: 80px;
+    width: 100px;
 }
 
 section h1, p{
     margin-left: 40px;
+}
+
+section .cards{
+    display: flex;
+    justify-content: start;
+    margin: 30px;
+    
+}
+section .card{
+    margin-left: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+section .card-content{
+    display: grid;
 }
