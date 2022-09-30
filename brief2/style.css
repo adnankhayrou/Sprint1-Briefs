@@ -1,3 +1,6 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -61,13 +64,16 @@ section .cards{
     display: flex;
     justify-content: start;
     margin: 30px;
+    flex-wrap: wrap;
     
 }
 section .card{
     margin-left: 15px;
-    border: 1px solid black;
+    border: 0.5px solid grey;
+    box-shadow: gray 2px 2px 3px;
     background-color: rgb(241, 240, 240);
     padding: 10px;
+    margin-bottom: 1rem;
     
 }
 section .card-content{
