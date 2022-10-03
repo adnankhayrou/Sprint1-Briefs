@@ -19,7 +19,6 @@ ul li a{
     
 }
 ul {
-    margin: 0;
     display: flex;
     list-style: none;
 }
@@ -47,9 +46,8 @@ header {
     
     
 }
-nav ol li {
-    display: inline-block;
-    
+nav ol li{
+    display: inline;
 }
 
 .img {
@@ -93,8 +91,9 @@ section .card-content{
     }
 
     .img {
-        height: 100px;
-        width: 180px;
+        margin: 10px;
+        height: 120px;
+        width: 240px;
     }
 
     ul{
@@ -104,13 +103,38 @@ section .card-content{
     }
 
      ul li{
-        margin-left: 20px;
+        margin: 11px;
     }
     section .cards{
         display: flex;
         justify-content: center;
         margin: 30px;
         flex-wrap: wrap;
-        
     }
+
+    section h1, p{
+        margin-left: 10px;
+    }
+
+    nav ol {
+        display: flex;
+        justify-content: flex-start;
+        padding: 9px;
+    }
+
+    section .card{
+        margin-left: 15px;
+        width: 320px;
+        border: 0.5px solid grey;
+        box-shadow: gray 2px 2px 3px;
+        background-color: rgb(241, 240, 240);
+        padding: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .card-img img{
+
+        width: 300px;
+    }
+
 }
