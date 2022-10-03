@@ -124,7 +124,7 @@ section .card-content{
 
     section .card{
         margin-left: 15px;
-        width: 320px;
+        width: 300px;
         border: 0.5px solid grey;
         box-shadow: gray 2px 2px 3px;
         background-color: rgb(241, 240, 240);
@@ -134,7 +134,13 @@ section .card-content{
 
     .card-img img{
 
-        width: 300px;
+        width: 280px;
     }
 
+}
+
+@media print {
+    header .text{
+        display: none;
+    }
 }
