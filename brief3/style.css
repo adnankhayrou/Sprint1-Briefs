@@ -1,0 +1,81 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+ul li {
+    
+    margin-left: 50px;
+    margin-top: 30px;
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: green ;
+}
+.rrp{
+    color: gray;
+}
+
+.price{
+    color: black;
+}
+.saving{
+    color: rgb(15, 110, 15);
+}
+header {
+    background-color: black;
+    height: 80px;
+    
+    
+}
+nav ol li {
+    display: inline-block;
+    
+}
+
+.img {
+    height: 80px;
+    width: 100px;
+}
+
+section h1, p{
+    margin-left: 40px;
+}
+
+section .cards{
+    display: flex;
+    justify-content: start;
+    margin: 30px;
+    flex-wrap: wrap;
+    
+}
+section .card{
+    margin-left: 15px;
+    border: 0.5px solid grey;
+    box-shadow: gray 2px 2px 3px;
+    background-color: rgb(241, 240, 240);
+    padding: 10px;
+    margin-bottom: 1rem;
+    
+}
+section .card-content{
+    display: grid;
+}
