@@ -1,5 +1,4 @@
 *{
-    box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
@@ -104,6 +103,7 @@ section .card-content{
 
      ul li{
         margin: 11px;
+        font-size: 12px;
     }
     section .cards{
         display: flex;
